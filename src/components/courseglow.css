@@ -1,0 +1,16 @@
+.course-card.glow {
+  box-shadow: 0 0 16px 4px #00bcd4, 0 0 32px 8px #b2f1fa;
+  animation: glowPulse 1.2s 2;
+}
+
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 16px 4px #00bcd4, 0 0 32px 8px #b2f1fa;
+  }
+  50% {
+    box-shadow: 0 0 32px 12px #00e6ff, 0 0 48px 16px #b2f1fa;
+  }
+  100% {
+    box-shadow: 0 0 16px 4px #00bcd4, 0 0 32px 8px #b2f1fa;
+  }
+}
