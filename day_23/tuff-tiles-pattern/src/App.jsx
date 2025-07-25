@@ -9,7 +9,7 @@ function App() {
           Tuff Tiles Road Pattern
         </h1>
         <p className="text-gray-300 text-sm md:text-base">
-          Stone-like pattern with grey and pink tiles
+          Stone-like pattern with grey and pink tiles.........
         </p>
       </header>
       
